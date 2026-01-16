@@ -95,9 +95,10 @@ Sample Output
 Total error entries found: 3
 ALERT: Error threshold exceeded!
 
-Automation Skills Demonstrated
+#Automation Skills Demonstrated: 
 	•	File handling
 	•	Pattern matching
 	•	Conditional logic
 	•	Basic alerting
 	•	Log analysis
+
