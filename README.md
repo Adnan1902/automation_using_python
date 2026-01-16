@@ -61,9 +61,6 @@ task1-health-check/
 - Python 3 installed
 - `requests` library installed
 
-```bash
-pip install requests
-
 Run the script
 python health_check.py
 Logs will be generated automatically.
