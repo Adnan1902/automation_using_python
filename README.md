@@ -62,8 +62,11 @@ task1-health-check/
 - `requests` library installed
 
 Run the script
+
 python health_check.py
+
 Logs will be generated automatically.
+
 
 Learning Outcomes
 	•	Basic automation scripting
