@@ -1,0 +1,5 @@
+INFO Application started 
+ERROR Failed to connect to database
+ERROR Timeout while fetching data
+CRITICAL Disk space below threshold
+ERROR service crashed
