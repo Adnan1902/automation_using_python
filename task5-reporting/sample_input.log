@@ -1,0 +1,6 @@
+INFO Service started successfully
+ERROR Database connection failed
+WARNING High memory usage detected
+ERROR Timeout while calling API
+INFO Health check completed 
+ERROR Disk space critically low
