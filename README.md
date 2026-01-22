@@ -1,133 +1,142 @@
-Automation Using Python
+# Automation Using Python
 
 This repository contains a collection of practical automation tasks implemented using Python, Git, and system scheduling tools. Each task focuses on solving real-world operational problems commonly encountered in IT operations, automation, and DevOps workflows.
 
-⸻
+---
 
-Project Structure
+## 📁 Project Structure
 
+```text
 automation_using_python/
+├── task1-health-check/
+├── task2-log-analyzer/
+├── task3-ticket-categorization/
+├── task4-scheduling/
+├── task5-reporting/
+├── task6-alerting/
+└── README.md
+```
+Each task directory contains:
+- Python scripts
+- Sample input files
+- Generated output files
+- Task-specific documentation
 
-task1-health-check/
-task2-log-analyzer/
-task3-ticket-categorization/
-task4-scheduling/
-task5-reporting/
-task6-alerting/
-README.md
+---
 
-Each task folder contains its own README, sample input files, Python scripts, and outputs where applicable.
+## ✅ Task Overview
 
-⸻
-
-Task Summary
-
-Task 1: Automated Health Check
-
-Objective:
+### 🔹 Task 1: Automated Health Check
+**Objective:**  
 Automate basic system health checks to validate operational readiness.
 
-Key Points:
-	•	Performs basic health validations
-	•	Outputs readable system status
-	•	Designed for repeatable execution
+**Key Features:**
+- Performs basic health validations
+- Outputs readable system status
+- Designed for repeatable execution
 
-Skills Used:
-Python scripting, system checks, automation basics
+**Skills Used:**  
+Python scripting, system checks, automation fundamentals
 
-⸻
+---
 
-Task 2: Log Analyzer
-
-Objective:
+### 🔹 Task 2: Log Analyzer
+**Objective:**  
 Analyze log files and summarize log severity levels.
 
-Key Points:
-	•	Parses log files
-	•	Counts INFO, WARNING, and ERROR messages
-	•	Generates a summary output
+**Key Features:**
+- Parses log files
+- Counts `INFO`, `WARNING`, and `ERROR` messages
+- Generates a summary output
 
-Skills Used:
+**Skills Used:**  
 File handling, string processing, log analysis
 
-⸻
+---
 
-Task 3: Ticket Categorization
+### 🔹 Task 3: Ticket Categorization
+**Objective:**  
+Automatically categorize support tickets based on their content.
 
-Objective:
-Automatically categorize support tickets based on content.
+**Key Features:**
+- Reads ticket data from input files
+- Categorizes tickets using keyword-based logic
+- Produces structured classification output
 
-Key Points:
-	•	Reads ticket data from input files
-	•	Classifies tickets using keyword-based logic
-	•	Outputs structured ticket categories
-
-Skills Used:
+**Skills Used:**  
 Text processing, rule-based automation, data classification
 
-⸻
+---
 
-Task 4: Automation Scheduling
-
-Objective:
+### 🔹 Task 4: Automation Scheduling
+**Objective:**  
 Demonstrate scheduling of automation scripts for unattended execution.
 
-Key Points:
-	•	Script scheduling using Windows Task Scheduler
-	•	Documentation of scheduling steps
-	•	Focus on operational automation
+**Key Features:**
+- Automation scheduled using Windows Task Scheduler
+- Step-by-step scheduling documentation
+- Focus on real-world operational automation
 
-Skills Used:
+**Skills Used:**  
 Task scheduling, automation lifecycle management
 
-⸻
+---
 
-Task 5: Automated Reporting
-
-Objective:
+### 🔹 Task 5: Automated Reporting
+**Objective:**  
 Generate a timestamped summary report from processed input data.
 
-Key Points:
-	•	Reads structured input data
-	•	Generates timestamped summary reports
-	•	Writes output to an output report file
+**Key Features:**
+- Reads structured input data
+- Generates timestamped summary reports
+- Writes output to a report file
 
-Skills Used:
-Reporting automation, timestamp handling, structured output
+**Skills Used:**  
+Reporting automation, timestamp handling, structured output generation
 
-⸻
+---
 
-Task 6: Alerting System
+### 🔹 Task 6: Alerting System
+**Objective:**  
+Trigger alerts when error thresholds are exceeded in generated reports.
 
-Objective:
-Trigger alerts when error thresholds are exceeded in reports.
+**Key Features:**
+- Reads report files
+- Detects `ERROR` and `CRITICAL` conditions
+- Triggers alerts when thresholds are crossed
+- Logs alerts with timestamps for auditing
 
-Key Points:
-	•	Reads report files
-	•	Detects ERROR and CRITICAL conditions
-	•	Generates alerts when thresholds are crossed
-	•	Logs alerts with timestamps
-
-Skills Used:
+**Skills Used:**  
 Monitoring automation, alerting logic, defensive scripting
 
-⸻
+---
 
-Automation Skills Gained
-	•	Python automation scripting
-	•	File system automation
-	•	Log analysis and reporting
-	•	Threshold-based alerting
-	•	Windows task scheduling
-	•	Git and GitHub version control
-	•	Technical documentation
+## 🛠 Automation Skills Gained
 
-⸻
+- Python automation scripting
+- File system automation
+- Log analysis and reporting
+- Threshold-based alerting systems
+- Windows task scheduling
+- Git and GitHub version control
+- Writing clear technical documentation
 
-How to Run
-	1.	Clone the repository
+---
+
+## ▶️ How to Run
+
+1. Clone the repository:
+```bash
 git clone https://github.com/your-username/automation_using_python.git
-	2.	Navigate to a task folder
+```
+2. Navigate to a task directory:
+``` bash
 cd task6-alerting
-	3.	Run the script
-python alert_manager.py
+```
+3. Run the script:
+   ```bash
+   python alert_manager.py
+   ```
+📌 Status
+
+All automation tasks from Task 1 through Task 6 have been completed, tested, and verified.
