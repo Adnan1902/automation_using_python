@@ -1,104 +1,51 @@
-# Task 2: Automated Log Error Detection
-
-## Overview
-This project automatically scans application log files to detect error patterns such as **ERROR**, **FAILED**, and **EXCEPTION**.  
-It helps identify issues early without manually checking large log files.
 
 ---
 
-## Why This Automation?
-- Logs grow very large over time
-- Manual scanning is slow and error-prone
-- Automated detection ensures faster incident awareness
-- Useful in DevOps, SRE, and production monitoring
+## ✅ Task 2 – Log Analyzer  
+**`task2-log-analyzer/README.md`**
+
+```md
+# Task 2: Log Analyzer
+
+## Objective
+Analyze application logs to identify and summarize log severity levels.
 
 ---
 
-## Features
-- Scans log files line by line
-- Detects predefined error keywords
-- Counts total error occurrences
-- Triggers an alert if error count crosses a threshold
-- Logs detected errors using Python logging
+## Description
+This task parses log files to count occurrences of different log levels such as `INFO`, `WARNING`, and `ERROR`.  
+It helps identify system behavior patterns and error frequency.
+
+This approach mirrors real-world log analysis used in production systems.
 
 ---
 
-## Technologies Used
-- Python 3
-- File handling
-- Pattern matching
-- Logging module
-
----
-
-## Project Structure
-# Task 2: Automated Log Error Detection
-
-## Overview
-This project automatically scans application log files to detect error patterns such as **ERROR**, **FAILED**, and **EXCEPTION**.  
-It helps identify issues early without manually checking large log files.
-
----
-
-## Why This Automation?
-- Logs grow very large over time
-- Manual scanning is slow and error-prone
-- Automated detection ensures faster incident awareness
-- Useful in DevOps, SRE, and production monitoring
-
----
-
-## Features
-- Scans log files line by line
-- Detects predefined error keywords
-- Counts total error occurrences
-- Triggers an alert if error count crosses a threshold
-- Logs detected errors using Python logging
-
----
-
-## Technologies Used
-- Python 3
-- File handling
-- Pattern matching
-- Logging module
-
----
-
-## Project Structure
-task2-log-analyzer/
-│── log_analyzer.py
-│── sample_app.log
-│── README.md
-│── .gitignore
+## Files
+- `log_analyzer.py` – Log parsing script
+- `sample.log` – Sample log input
+- `summary.txt` – Generated summary output
 
 ---
 
 ## How It Works
-1. Reads the log file (`sample_app.log`)
-2. Searches for keywords:
-   - ERROR
-   - FAILED
-   - EXCEPTION
-3. Counts matching log entries
-4. Prints total error count
-5. Raises an alert if threshold is exceeded
+1. Reads a log file line by line
+2. Detects severity keywords
+3. Maintains counters for each severity level
+4. Outputs a summarized report
 
 ---
 
 ## How to Run
-
 ```bash
 python log_analyzer.py
 ```
-Sample Output
-Total error entries found: 3
-ALERT: Error threshold exceeded!
 
-#Automation Skills Demonstrated: 
-	•	File handling
-	•	Pattern matching
-	•	Conditional logic
-	•	Basic alerting
-	•	Log analysis
+## Skills Demonstrated
 
+- File handling
+
+- String parsing
+
+- Log analysis
+
+- Automation reporting
