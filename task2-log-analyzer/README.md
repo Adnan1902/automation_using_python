@@ -1,10 +1,3 @@
-
----
-
-## ✅ Task 2 – Log Analyzer  
-**`task2-log-analyzer/README.md`**
-
-```md
 # Task 2: Log Analyzer
 
 ## Objective
@@ -22,8 +15,7 @@ This approach mirrors real-world log analysis used in production systems.
 
 ## Files
 - `log_analyzer.py` – Log parsing script
-- `sample.log` – Sample log input
-- `summary.txt` – Generated summary output
+- `sample_app.log` – Sample log input
 
 ---
 
@@ -49,3 +41,4 @@ python log_analyzer.py
 - Log analysis
 
 - Automation reporting
+
