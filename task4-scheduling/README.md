@@ -1,37 +1,34 @@
-# Task 4: Automation Scheduling 
+# Task 4: Automation Scheduling
 
 ## Objective
-To demonstrate how an automation script can be scheduled to run automatically using Windows Task Scheduler.
-
-This task focuses on operational automation rather than scripting.
+Demonstrate unattended execution of automation scripts using scheduling tools.
 
 ---
 
-## What was Implemented
-- Scheduled an existing automation script (Log Analyzer)
-- Configured execution using Windows Task Scheduler
-- Set up a daily trigger for automatic execution
-- Verified successful manual execution via Task Scheduler
+## Description
+This task focuses on scheduling previously created automation scripts using Windows Task Scheduler.  
+It simulates real-world execution of jobs such as daily checks or periodic reports.
 
 ---
 
-## Why this Matters
-- Eliminates manual script execution
-- Enables continous and reliable monitoring
-- Reflects real-world DevOps and IT operations practices
+## Files
+- Scheduling documentation
+- Screenshots / notes (if applicable)
 
 ---
-
 ## Tools Used
 - Windows Task Scheduler
-- Python
+
+---
+## How It Works
+1. Select an automation script
+2. Configure a scheduled task
+3. Define execution time and frequency
+4. Validate scheduled execution
 
 ---
 
-## Automation Covered
-- Task 2: Automated Log Error Detection
-
----
-
-## Author 
-Mohammed Adnan
+## Skills Demonstrated
+- Windows Task Scheduler
+- Automation lifecycle management
+- Operational automation
