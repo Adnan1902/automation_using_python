@@ -19,7 +19,7 @@ It simulates real-world execution of jobs such as daily checks or periodic repor
 ## Tools Used
 - Windows Task Scheduler
 
----
+--- 
 ## How It Works
 1. Select an automation script
 2. Configure a scheduled task
