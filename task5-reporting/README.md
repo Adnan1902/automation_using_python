@@ -1,14 +1,40 @@
-# Task 5 - Automated Log Summary Report
+# Task 5: Automated Reporting
 
 ## Objective
-Automatically generate a timestamped summary report from application log files.
+Generate a timestamped summary report from processed input data.
 
+---
 
 ## Description
-This script reads a log file, counts the number of INFO, WARNING, and ERROR messages, and generates a clean summary report with the current timestamp. The report is written to an output file and can be scheduled to run automatically.
+This task reads structured input data and produces a summarized report with timestamps.  
+The output is written to a report file, simulating daily or periodic operational reporting.
 
-## Input
-- 'sample_input.log' - Sample application log file containing INFO, WARNING, and ERROR messages.
+---
 
-## Output
-- 'output_report.txt' - Generated summary report with timestamp and message counts.
+## Files
+- `report_generator.py` – Report generation script
+- `sample_input.txt` – Sample input
+- `output_report.txt` – Generated report
+
+---
+
+## How It Works
+1. Reads input data
+2. Processes summary metrics
+3. Adds timestamp
+4. Writes formatted report to output file
+
+---
+
+## How to Run
+```bash
+python report_generator.py
+```
+
+## Skills Demonstrated
+
+- Reporting automation
+
+- Timestamp handling
+
+- Structured output generation
