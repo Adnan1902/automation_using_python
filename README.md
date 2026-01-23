@@ -129,11 +129,11 @@ Monitoring automation, alerting logic, defensive scripting
 ```bash
 git clone https://github.com/your-username/automation_using_python.git
 ```
-2. Navigate to a task directory:
+2. Navigate to a task directory (example) :
 ``` bash
 cd task6-alerting
 ```
-3. Run the script:
+3. Run the script (example) :
    ```bash
    python alert_manager.py
    ```
