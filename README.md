@@ -118,7 +118,6 @@ Monitoring automation, alerting logic, defensive scripting
 - Log analysis and reporting
 - Threshold-based alerting systems
 - Windows task scheduling
-- Git and GitHub version control
 - Writing clear technical documentation
 
 ---
